@@ -1,0 +1,621 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+li {
+    list-style: none
+}
+
+img {
+    vertical-align: top;
+    border: none
+}
+
+a {
+    text-decoration: none;
+}
+
+.a {
+    padding: 60px 0;
+    background: #f7f8fa;
+    min-width: 1200px;
+}
+
+.b {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.c {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.c h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #323232;
+}
+
+.c h2 span {
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #343434;
+}
+
+.c a {
+    margin-bottom: 5px;
+    color: #28b6f4;
+}
+
+.d {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.d h5 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 18px 0px 10px 0px;
+}
+
+.d span {
+    font-size: 16px;
+    color: #9a9a9a;
+}
+
+.wenzhanga {
+    padding: 60px 0;
+}
+
+.wenzhangb {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+
+.wenzc {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+
+.wenzc h1 {
+    font-size: 36px;
+}
+
+.wenzc a {
+    padding: 24px 0 0 0;
+    color: #28b6f4;
+}
+
+.wenzd {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wenzd li {
+    display: flex;
+    width: 528px;
+    height: 202px;
+    box-shadow: 0 2px 10px #e2e1e1;
+    border-radius: 10px;
+    padding: 30px 30px;
+    margin-bottom: 24px;
+}
+
+.wenzdr {
+    padding: 10px 0px 10px 16px;
+}
+
+.zan {
+    display: flex;
+    width: 74px;
+    height: 20px;
+    padding-top: 122px;
+}
+
+.ztu {
+    width: 22px;
+    height: 22px;
+    background-image: url(./../image/image/good.png);
+    background-repeat: no-repeat;
+}
+
+.ztu:hover {
+    cursor: pointer;
+}
+
+.zan div {
+    padding: 4px 0 0 4px;
+    color: #29b9f5;
+}
+
+
+.shi {
+    background-color: #f7f8fa;
+    padding: 60px 0;
+    min-width: 1200px;
+    overflow: hidden;
+}
+
+.ke {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.kl {
+    display: flex;
+    position: relative;
+    left: 0;
+}
+
+.ke li {
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0 24px 0 0;
+}
+
+.kes {
+    position: relative;
+    overflow: hidden;
+}
+
+.kes h4 {
+    position: absolute;
+    bottom: -44px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px 0;
+    font-weight: normal;
+    font-size: 18px;
+    transition: bottom 0.1s ;
+
+}
+
+.kes:hover h4 {
+    bottom: 0;
+
+    animation-name: emm;
+    animation-delay: 0.1s;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+}
+
+@keyframes emm {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    75% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.kex {
+    padding: 20px 18px;
+    background-color: white;
+}
+
+.kex h3 {
+    font-weight: 16px;
+}
+
+.kexd {
+    font-size: 13px;
+    color: #a2a2a2;
+    margin: 14px 0;
+    font-size: 14px;
+}
+
+.kexs {
+    display: flex;
+    align-items: center;
+}
+
+.kexs div {
+    padding-left: 12px;
+    color: #9a9a9a;
+}
+
+.kexs span {
+    font-size: 18px;
+}
+
+.tl {
+    background-image: url(./../image/image/left1.png);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-124%);
+    cursor: pointer;
+}
+
+.tl:hover {
+    background-image: url(./../image/image/left.png);
+}
+
+.tr {
+    background-image: url(./../image/image/right2.png);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 101%;
+    cursor: pointer;
+}
+
+.tr:hover {
+    background-image: url(./../image/image/right.png);
+}
+
+
+
+
+
+
+/* 重置浏览器里面的默认样式，因为浏览器给一些标签给了默认的
+间距 所以为了统一 把所有的间距归0[假如谷歌浏览器默认10px 360浏览器给12px]
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    /* 超链接默认自带下划线 去掉下划线 */
+    text-decoration: none;
+}
+
+ul,
+ol {
+    /* 不显示自带列表项目符号 */
+    list-style: none;
+}
+
+/* 最好把图片转化为块级元素 */
+img {
+    display: block;
+}
+
+.school {
+    padding: 60px 0;
+}
+
+.center {
+    width: 1200px;
+    /* 设置上下间距为0 左右auto居中 */
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    /* 设置title里面子元素flex布局 并且 间距填充 */
+    justify-content: space-between;
+    /* 设置在交叉轴 向下对齐 */
+    align-items: flex-end;
+}
+
+.title h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #323232;
+}
+
+/* 后代选择器 选中.title里面的h2标签里面span标签 */
+.title h2 span {
+    font-size: 18px;
+    color: #333;
+}
+
+.title a {
+    color: #2bb9f6;
+}
+
+.center {
+    display: flex;
+}
+
+.school-left {
+    width: 894px;
+}
+
+.school-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 6px 0px 0px 0px;
+}
+
+.school-list li {
+    box-shadow: 0px 0px 10px #e2e0e0;
+    margin-top: 24px;
+    border-radius: 6px;
+}
+
+.school-right {
+    width: 262px;
+}
+
+.school-list p {
+    /* 当开启flex布局以后子元素会自动变为块级元素 */
+    display: flex;
+    margin: 15px 0px;
+    align-items: center;
+}
+
+.school-list p span {
+    color: #fdc55d;
+    font-size: 16px;
+}
+
+i.star {
+    background: url(./../image/image/star.png);
+    width: 18px;
+    height: 18px;
+}
+
+.school-list h5 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.school-list .classname {
+    background: #49c5f6;
+    font-size: 14px;
+    color: white;
+    padding: 2px 5px;
+    /* 设置圆角 圆角的半径为5px */
+    border-radius: 5px;
+}
+
+.school-list address {
+    font-size: 14px;
+    /* 设置字体样式 normal不倾斜 italic 斜体显示 */
+    font-style: normal;
+    color: #999;
+    margin-top: 15px;
+}
+
+.school-list div {
+    padding: 20px 15px;
+}
+
+.school-right {
+    padding: 62px 0 0 40px;
+}
+
+.discus li {
+    margin: 32px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.discus h5 {
+    color: #656565;
+    font-size: 18px;
+}
+
+.discus i {
+    font-style: normal;
+    background: #ff7847;
+    font-size: 13px;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+.discus span {
+    margin-top: 12px;
+    color: #a9a9a9;
+}
+
+.jian {
+    padding: 60px 0;
+}
+
+.cen {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.recommend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recommend img {
+    width: 282px;
+    height: 200px;
+}
+
+/* 阴影 */
+.recommend li {
+    position: relative;
+    margin-top: 24px;
+    width: 282px;
+    box-shadow: 0 0 10px #e2e1e1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.recommend li>div {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    left: 28px;
+    top: 174px;
+}
+
+.recommend li>div>img {
+    width: 54px;
+    height: 54px;
+}
+
+.recommend li p {
+
+    color: #a1a1a1;
+    white-space: wrap;
+}
+
+.recommend span {
+    width: 36px;
+    height: 20px;
+    margin: 0 0 6px 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.recommend li>div>div {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    background: #2abaf6;
+    padding: 3px 10px;
+    color: white;
+    font-size: 14px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 0 0 14px 178px;
+}
+
+.recommend li>p {
+    margin: 40px 20px 24px;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    min-width: 1200px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.h {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    width: 1980px;
+    overflow: hidden;
+    height: 500px;
+}
+
+.uu {
+    display: flex;
+    position: absolute;
+}
+
+/* .tutu{
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+.tu {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.tul {
+    background-image: url(./../image/image/left1.png);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-100%);
+    cursor: pointer;
+}
+
+.tul:hover {
+    background-image: url(./../image/image/left.png);
+}
+
+.tur {
+    background-image: url(./../image/image/right2.png);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100%;
+    cursor: pointer;
+}
+
+.tur:hover {
+    background-image: url(./../image/image/right.png);
+}
+
+.dian {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .dian div{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 6px;
+    background-color: #d7d9d6;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.dian .yi{
+    transform: scale(1.1);
+    background-color: #2cb8f6;
+}
+ .yii:hover{
+    transform: scale(1.06);
+    background-color: #2cb8f6;
+} */
+.dian div {
+    margin: 0 3px;
+    width: 12px;
+    height: 12px;
+    background-color: #d7d9d6;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dian .yi {
+    transform: scale(1.1);
+    background-color: #2cb8f6;
+}
+
+.dian div:hover {
+    transform: scale(1.06);
+    background-color: #2cb8f6;
+}

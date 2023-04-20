@@ -1,0 +1,278 @@
+main{
+    background-color: #f7f8fa;
+    box-shadow:inset 0px 5px 10px #e9ebef;
+    min-width: 1200px;
+}
+.z{
+    display: block;
+    font-size: 12px;
+    padding:  24px 0;
+    width: 1200px;
+    margin: 0 auto;
+    min-width: 1200px;
+}
+.z >div{
+    display: inline;
+    color: #a0a0a2;
+    font-size: 12px;
+}
+.w{
+    width: 1200px;
+    display: flex;
+    justify-content: start;
+    margin: 0 auto;
+    background-color: white;
+}
+.wl{
+    padding: 20px 0 20px 30px;
+    width: 140px;
+    box-sizing: border-box;
+}
+.wl div{
+    padding: 42px 0 0 0;
+    font-size: 14px;
+    color: #a0a0a2;
+}
+.wl .wla{
+    padding-top: 0;
+}
+.wr{
+    padding: 20px 0;
+}
+.wr ul{
+    padding-top: 42px;
+    display: flex;
+}
+.wr .wra{
+    padding: 0;
+}
+.wr ul li{
+    margin-right: 56px;
+    font-size: 14px;
+}
+.wr ul li:hover{
+    color: #28b6f4;
+    cursor: pointer;
+}
+.wral{
+    color: #28b6f4;
+}
+
+.t{
+    width: 1200px;
+    margin: 0 auto ;
+    padding: 24px 0 60px ;
+    background-color: #f7f8fa;
+}
+.tc{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 0 0 30px;
+}
+.tcl{
+    width: 890px;
+    box-sizing: border-box;
+    border-right: 26px solid #f7f8fa;
+}
+.tclt{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #f3f4f8;
+    padding: 30px 0;
+}
+.tclta{
+    background-color: #28b6f4;
+    color: white;
+}
+.tclt span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+.mnkl>ul{
+    display: none;
+}
+.mnkl .tclc{
+    display: block;
+}
+.tclt>span:hover{
+    background-color: #28b6f4;
+    color: white;
+    cursor: pointer;
+}
+.tclc li{
+    padding: 30px 0;
+    border-bottom: 1px solid #f3f4f8;
+    display: flex;
+}
+.tclq a{
+    display: flex;
+    width: 100%;
+}
+.tclcr{
+    padding: 12px 0 12px 30px;
+    position: relative;
+    width: 100%;
+}
+.tclcr h2{
+    color: black;
+}
+.tclcr p{
+    /* 当开启flex布局以后子元素会自动变为块级元素 */
+    display: flex;
+    margin:15px 0px;
+    align-items: center;
+}
+.tclcr p span{
+    color:#fdc55d;
+    font-size:20px;
+}
+.star{
+    background:url(./../image/image/star.png);
+    width:18px;
+    height:18px;
+}
+.tclcrz{
+    color: #28b6f4;
+}
+.tclcr>span{
+    display: block;
+    padding: 22px 0;
+}
+.tclcra{
+    color: #a0a0a2;
+    font-size: 18px;
+}
+ 
+/* .tclcr .tclcra span{
+    color: #28b6f4;
+} */
+.tclcrbb{
+    position: absolute;
+    right: 0;
+    border:1px solid #fe764c;
+    bottom: 7px;
+    border-radius: 8px;
+    padding: 4px 12px;
+    color: white;
+    background-color: #fe764c;
+}
+.tclcrb{
+    position: absolute;
+    right: 0;
+    border:1px solid #fe764c;
+    bottom: 7px;
+    border-radius: 8px;
+    padding: 4px 12px;
+    color: #fe764c;
+    cursor: pointer;
+}
+.tclcrb:hover{
+    color: white;
+    background-color: #fe764c;
+}
+.tclcrc{
+    color: #a0a0a2;
+    font-size: 18px;
+}
+.tclx{
+    display: flex;
+    justify-content: center;
+}
+.tclx{
+    padding: 30px 0;
+}
+.tclx li{
+    padding: 10px;
+    border: 1px solid #f2f2f7;
+    border-radius: 6px;
+    margin:0 5px;
+    width: 30px;
+    box-sizing: border-box;
+    font-size: 12px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.tclx .tclxd{
+    border: none;
+}
+.tclxt{
+    background-color: #28b6f4;
+}
+.tclx li:hover{
+    background-color: #28b6f4;
+}
+.tcr{
+    padding: 20px;
+    width: 280px;
+    box-sizing: border-box;
+    height: 100%;
+    border-bottom: 1171px solid #f7f8fa;
+}
+.tcrs li{
+    display: flex;
+    padding-bottom: 24px;
+    width: 270px;
+}
+.tcr img{
+    width: 80px;
+    height: 62px;
+}
+.tcr h3{
+    color: #28b6f4;
+    padding-bottom: 20px;
+}
+.tclcr{
+    font-size: 14px;
+}
+.tcrcr{
+    padding-left: 12px;
+}
+.tcrcr h4{
+    font-size: 14px;
+}
+.tcrcr p{
+    display: flex;
+    align-items: center;
+    scale: 0.6;
+    transform: translateX(-44px);
+    padding: 3px 0;
+}
+.tcrcr p span{
+    color:#fdc55d;
+    font-size:16px;
+}
+.start{
+    background:url(./../image/image/star.png);
+    width:18px;
+    height:18px;
+}
+.tcrcrc{
+    font-size: 10px;
+}
+
+.tcrzz{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 23px;
+}
+.tcrzw{
+    font-size: 14px;
+    font-weight:bold;
+}
+.tcrzc{
+    font-size: 12px;
+    color: #a2a2a2;
+}
+.tcrzzb{
+    font-size: 12px;
+    color: #ffc25d;
+}
